@@ -1,0 +1,31 @@
+version: 2
+
+models:
+    - name: test_file_1
+      description: "This is description for test_file_1 view Space InDescription Quote'InDescription Unicode☃ӝInDescription !@#$%^&*() Null"
+      columns:
+          - name: ID
+            description: "The primary key for this table Null\0InDescription"
+          - name: FIRST_NAME
+            description: "This is FIRST_NAME column NewLine\nInDescription NullInDesc"
+    - name: test_file_2
+      description: "This is description for test_file_2 table !@#$%^& Dot.InDescription Null\0InDescription"
+      columns:
+          - name: ID
+            description: The primary key for this table Dot.InDescription `:-;-"-<->-?-/-\-|-~`
+          - name: LAST_NAME
+            description: "This is LAST_NAME column"
+    - name: test_file_3
+      description: "This is description for test_file_3 incremental Space InDescription Quote'InDescription Unicode☃ӝInDescription (1)[2]{3}"
+      columns:
+          - name: ID
+            description: "The primary key for this table +=',_`;"
+          - name: FIRST_NAME
+            description: "This is string field"
+          - name: LAST_NAME
+            description: "This is string field"
+    - name: test_view_1
+      description: "This is description for test_view_1 view !@#$%^&() non_ascii©InDescription(ID INT)"
+      columns:
+          - name: ID
+            description: "The primary key for this table"
