@@ -1,1 +1,0 @@
-select * from {{ ref('test_file_4') }}
