@@ -1,31 +1,13 @@
 version: 2
 
 models:
-    - name: test_file_1
-      description: "This is description for test_file_1 view Space InDescription Quote'InDescription Unicode☃ӝInDescription !@#$%^&*() Null"
+    - name: view1
+      description: "Скажите пожалуйста, как пройти в палату?Скажите пожалуйста, как пройти в палату? from GIT Warning Permanently added 'ip-10-13-89-128.alation-test.com' (ED25519) to the list of known hosts. Most of the time, customer service stories (and their cousins, customer success stories) are shared on social media—Facebook, Twitter, Instagram. But there are plenty of other places online where people are talking about your brand that you might not come across as easily. Places like Reddit, personal blogs, and Quora, for example. (Phones are still a common channel for customers, but online customer service is quickly catching up.)"
       columns:
-          - name: ID
-            description: "The primary key for this table Null\0InDescription"
-          - name: FIRST_NAME
-            description: "This is FIRST_NAME column NewLine\nInDescription NullInDesc"
-    - name: test_file_2
-      description: "This is description for test_file_2 table !@#$%^& Dot.InDescription Null\0InDescription"
+          - name: product
+            description: "Скажите пожалуйста, как пройти в палату?Скажите пожалуйста, как пройти в палату? from GIT Warning Permanently added 'ip-10-13-89-128.alation-test.com' (ED25519) to the list of known hosts. First, Rachel went to FedEx but they told her they wouldn't be able to get the dress to Costa Rica before the wedding due to customs. So, she turned to Facebook. She posted in a local Facebook group to see if anyone was traveling to Costa Rica soon and could take the dress along with them"
+    - name: table1
+      description: "Скажите пожалуйста, как пройти в палату?Скажите пожалуйста, как пройти в палату? from GIT Warning Permanently added 'ip-10-13-89-128.alation-test.com' (ED25519) to the list of known hosts. Most of the time, customer service stories (and their cousins, customer success stories) are shared on social media—Facebook, Twitter, Instagram. But there are plenty of other places online where people are talking about your brand that you might not come across as easily. Places like Reddit, personal blogs, and Quora, for example. (Phones are still a common channel for customers, but online customer service is quickly catching up.)"
       columns:
-          - name: ID
-            description: The primary key for this table Dot.InDescription `:-;-"-<->-?-/-\-|-~`
-          - name: LAST_NAME
-            description: "This is LAST_NAME column"
-    - name: test_file_3
-      description: "This is description for test_file_3 incremental Space InDescription Quote'InDescription Unicode☃ӝInDescription (1)[2]{3}"
-      columns:
-          - name: ID
-            description: "The primary key for this table +=',_`;"
-          - name: FIRST_NAME
-            description: "This is string field"
-          - name: LAST_NAME
-            description: "This is string field"
-    - name: test_view_1
-      description: "This is description for test_view_1 view !@#$%^&() non_ascii©InDescription(ID INT)"
-      columns:
-          - name: ID
-            description: "The primary key for this table"
+          - name: quantity
+            description: "Скажите пожалуйста, как пройти в палату?Скажите пожалуйста, как пройти в палату? from GIT Warning Permanently added 'ip-10-13-89-128.alation-test.com' (ED25519) to the list of known hosts. First, Rachel went to FedEx but they told her they wouldn't be able to get the dress to Costa Rica before the wedding due to customs. So, she turned to Facebook. She posted in a local Facebook group to see if anyone was traveling to Costa Rica soon and could take the dress along with them"
